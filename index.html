@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UP & DOWN Game</title>
+
+    <!-- reset.css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css">
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="./main.css">
+
+    <!-- custom js -->
+    <script src="./app.js" defer></script>
+
+</head>
+<body>
+
+    <div class="wrapper">
+        <section class="main">
+            <h1 class="main-title">신나는 UP & DOWN 게임~!</h1>
+            <article class="number-wrapper">
+                <h2>
+                    <em id="begin">1</em>부터 <em id="end">100</em> 사이의 숫자를 선택하세요.
+                </h2>
+                <div id="numbers"></div>
+            </article>
+        </section>
+
+        <aside class="result">
+            <div id="up">UP!</div>
+            <div id="down">DOWN!</div>
+        </aside>
+
+        <div id="finish">Congratulations</div>
+    </div>
+    
+</body>
+</html>
